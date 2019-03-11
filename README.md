@@ -1,2 +1,2 @@
 # Firebit
-###### Firebase for Android made easier.
+###### Firebase on Android made easier.
