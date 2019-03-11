@@ -10,7 +10,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
-        versionName "0.0.1"
+        versionName "0.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -42,8 +42,8 @@ ext {
     webUrl = 'https://github.com/owellox/firebit.git'
 
     libName = 'Authentication'
-    libDesc = 'Make Firebase authentication easier.'
-    libVersion = '0.0.1'
+    libDesc = 'Firebase authentication made easier.'
+    libVersion = '0.0.2'
 
     devId = 'owellox'
     devName = 'Owellox'
