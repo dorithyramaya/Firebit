@@ -18,15 +18,14 @@ package com.owellox.firebit.auth;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.owellox.firebit.content.ContentActivity;
 
 /**
  * Base class for activities that deal with authentication state.
  */
-public abstract class AuthActivity extends AppCompatActivity implements AuthObserver.Callback {
-
+public abstract class AuthActivity extends ContentActivity implements AuthObserver.Callback {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
