@@ -14,7 +14,7 @@ allprojects {
   }
 }
 ```
-1. Open **app-level `build.gradle`**, usually shown as **build.gradle (Module: app)** under _Gradle Scripts_, and insert the line below to add the library you need to your app.
+2. Open **app-level `build.gradle`**, usually shown as **build.gradle (Module: app)** under _Gradle Scripts_, and insert the line below to add the library you need to your app.
 
 ```
 dependencies {
