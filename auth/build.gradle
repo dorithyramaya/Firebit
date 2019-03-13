@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 3
-        versionName "0.0.3"
+        versionCode 4
+        versionName "0.0.4"
     }
     buildTypes {
         release {
@@ -40,7 +40,7 @@ ext {
 
     libName = 'Authentication'
     libDesc = 'Firebase authentication made easier.'
-    libVersion = '0.0.3'
+    libVersion = '0.0.4'
 
     devId = 'owellox'
     devName = 'Owellox'
