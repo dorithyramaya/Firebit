@@ -27,7 +27,7 @@ public abstract class ContentActivity extends AppCompatActivity {
     /**
      * Notify this class that the content is empty.
      */
-    public final void notifyEmptyState() {
+    protected final void notifyEmptyState() {
         if (onEmptyStateListener != null) {
             onEmptyStateListener.onEmptyState();
         }
@@ -36,7 +36,7 @@ public abstract class ContentActivity extends AppCompatActivity {
     /**
      * Set the listener to invoke when {@link #notifyEmptyState()} is called.
      */
-    public final void setOnEmptyStateListener(@Nullable OnEmptyStateListener listener) {
+    protected final void setOnEmptyStateListener(@Nullable OnEmptyStateListener listener) {
         onEmptyStateListener = listener;
     }
 }
