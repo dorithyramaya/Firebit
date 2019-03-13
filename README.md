@@ -14,12 +14,13 @@ allprojects {
   }
 }
 ```
-1. Open **app-level `build.gradle`** and insert the line below to add Firebit Authentication library to your app.
+1. Open **app-level `build.gradle`**, usually shown as **build.gradle (Module: app)** under _Gradle Scripts_, and insert the line below to add the library you need to your app.
 
 ```
 dependencies {
   // ...
-  implementation 'com.owellox.firebit:auth:0.0.3'
+  implementation 'com.owellox.firebit:auth:0.0.4'
+  implementation 'com.owellox.firebit:content:0.0.1'
   // ...
 }
 ```
