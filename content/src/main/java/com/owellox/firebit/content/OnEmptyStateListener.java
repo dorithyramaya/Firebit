@@ -15,6 +15,12 @@
  */
 package com.owellox.firebit.content;
 
+/**
+ * Listener for empty state.
+ */
 public interface OnEmptyStateListener {
+    /**
+     * Called when the content is in empty state.
+     */
     void onEmptyState();
 }
