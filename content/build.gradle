@@ -41,7 +41,7 @@ ext {
 
     libName = 'Content'
     libDesc = 'Showing content on your Android app made easier.'
-    libVersion = '0.0.3'
+    libVersion = '0.0.1'
 
     devId = 'owellox'
     devName = 'Owellox'
